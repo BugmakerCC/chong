@@ -24,7 +24,8 @@ Educations
 
 Publications
 ------
-- **Identifying Smart Contract Security Issues in Code Snippets from Stack Overflow**  🏆 *ACM SIGSOFT Distinguished Paper Award*
+- **Identifying Smart Contract Security Issues in Code Snippets from Stack Overflow**
+🏆 *ACM SIGSOFT Distinguished Paper Award*
 <small>**ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA 2024)**  [PDF](https://dl.acm.org/doi/pdf/10.1145/3650212.3680353) | [Code](https://github.com/BugmakerCC/SOChecker)</small>  
 <small>Jiachi Chen, <u><b>Chong Chen</b></u>, Jiang Hu, John Grundy, Yanlin Wang, Ting Chen, Zibin Zheng</small>
 
