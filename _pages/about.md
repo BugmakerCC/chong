@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Introduction
+Biography
 ------
 My name is Chong Chen. I am a master’s student at the School of Software Engineering, *Sun Yat-sen University*. My supervisor is Prof. [Jiachi Chen](https://jiachi-chen.github.io). Currently, I am interning at the *National Key Laboratory of Blockchain and Data Security at Zhejiang University*.
 
