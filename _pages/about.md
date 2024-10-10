@@ -24,12 +24,12 @@ Educations
 
 Publications
 ------
-- **Identifying Smart Contract Security Issues in Code Snippets from Stack Overflow**
-🏆 *ACM SIGSOFT Distinguished Paper Award*
+- **Identifying Smart Contract Security Issues in Code Snippets from Stack Overflow**  
+🏆 *ACM SIGSOFT Distinguished Paper Award*  
 <small>**ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA 2024)**  [PDF](https://dl.acm.org/doi/pdf/10.1145/3650212.3680353) | [Code](https://github.com/BugmakerCC/SOChecker)</small>  
 <small>Jiachi Chen, <u><b>Chong Chen</b></u>, Jiang Hu, John Grundy, Yanlin Wang, Ting Chen, Zibin Zheng</small>
 
-- **When ChatGPT Meets Smart Contract Vulnerability Detection: How Far Are We?**  
+- **When ChatGPT Meets Smart Contract Vulnerability Detection: How Far Are We?**    
 <small>**ACM Transactions on Software Engineering and Methodology (TOSEM 2024)** (minor revision) [PDF](https://arxiv.org/pdf/2309.05520) | [Code](https://zenodo.org/record/8332273)</small>  
 <small><u><b>Chong Chen</b></u>, Jianzhong Su, Jiachi Chen, Yanlin Wang, Tingting Bi, Jianxing Yu, Yanli Wang, Xingwei Lin, Ting Chen, Zibin Zheng</small>
 
