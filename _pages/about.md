@@ -17,10 +17,10 @@ My research mainly focuses on: (1) **AI4SE**; (2) **Large Language Models**; (3)
 Educations
 ------
 - **Sun Yat-sen University**  
-  M.S. in Software Engineering, August 2023 - Present.
+  M.S. in Software Engineering, September 2023 - Present.
 
 - **Soochow University**  
-  B.S. in Computer Science and Technology, August 2019 - June 2023.
+  B.S. in Computer Science and Technology, September 2019 - June 2023.
 
 Publications
 ------
