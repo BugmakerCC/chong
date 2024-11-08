@@ -1,5 +1,6 @@
 ---
 permalink: /
+title: "Chong Chen (陈翀)"
 author_profile: true
 redirect_from: 
   - /about/
