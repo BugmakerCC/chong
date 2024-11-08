@@ -42,6 +42,10 @@ Academic Service
 Awards and Honors
 ------
 - **ACM SIGSOFT Distinguished Paper Award** (*ISSTA' 2024*)
+- Mathematical Contest in Modeling (MCM) **Honorable Mention**, 2022
+
+Scholarship
+------
+- **National** Scholarship at *SYSU*, 2023-2024
 - **1st Class** Scholarship at *SYSU*, 2023-2024
 - **1st Class** Scholarship at *SYSU*, 2022-2023
-- Mathematical Contest in Modeling (MCM) **Honorable Mention**, 2022
