@@ -33,15 +33,15 @@ Publications
 <small>**ACM Transactions on Software Engineering and Methodology (TOSEM 2024)**  [PDF](https://arxiv.org/pdf/2309.05520) | [Code](https://zenodo.org/record/8332273)</small>  
 <small><u><b>Chong Chen</b></u>, Jianzhong Su, Jiachi Chen, Yanlin Wang, Tingting Bi, Jianxing Yu, Yanli Wang, Xingwei Lin, Ting Chen, Zibin Zheng</small>
 
+
+Academic Service
+------
+- **Reviewer** of *IEEE Transactions on Computational Social Systems (IEEE TCSS)*, 2024 - Present
+- **Reviewer** of *Blockchain: Research and Application (BCRA)*, 2023 - Present
+
 Awards and Honors
 ------
 - **ACM SIGSOFT Distinguished Paper Award** (*ISSTA' 2024*)
 - **1st Class** Scholarship at *SYSU*, 2023-2024
-- **Reviewer** of *Blockchain: Research and Application (BCRA)*, 2023 - Present
 - **1st Class** Scholarship at *SYSU*, 2022-2023
 - Mathematical Contest in Modeling (MCM) **Honorable Mention**, 2022
-- Third Prize in Advanced Mathematics Competition at *Soochow University*, 2021
-- **Shen Jingsi Scholarship** at *Soochow University*, 2020-2021
-- **Special Scholarship for Spiritual Civilization** at *Soochow University*, 2020-2021
-- **Comprehensive Scholarship** at *Soochow University*, 2020-2021
-- **Excellent Academic Scholarship** at *Soochow University*, 2019-2020
