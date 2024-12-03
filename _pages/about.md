@@ -41,6 +41,7 @@ Academic Service
 
 Awards and Honors
 ------
+- The Third Prize in the *DataCon* Big Data Security Analysis Competition, 2024
 - **ACM SIGSOFT Distinguished Paper Award** (*ISSTA' 2024*)
 - Mathematical Contest in Modeling (MCM) **Honorable Mention**, 2022
 
