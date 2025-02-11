@@ -36,6 +36,7 @@ Publications
 
 Academic Service
 ------
+- **Reviewer** of *Chinese Journal of Electronics (CJE)*, 2025 - Present
 - **Reviewer** of *IEEE Transactions on Computational Social Systems (IEEE TCSS)*, 2024 - Present
 - **Reviewer** of *Blockchain: Research and Application (BCRA)*, 2023 - Present
 
