@@ -36,6 +36,7 @@ Publications
 
 Academic Service
 ------
+- **Program Committee**: *APSEC 2025*
 - **Reviewer** of *Chinese Journal of Electronics (CJE)*, 2025 - Present
 - **Reviewer** of *IEEE Transactions on Computational Social Systems (IEEE TCSS)*, 2024 - Present
 - **Reviewer** of *Blockchain: Research and Application (BCRA)*, 2023 - Present
@@ -43,7 +44,7 @@ Academic Service
 Awards and Honors
 ------
 - The Third Prize in the *DataCon* Big Data Security Analysis Competition, 2024
-- **ACM SIGSOFT Distinguished Paper Award** (*ISSTA' 2024*)
+- **ACM SIGSOFT Distinguished Paper Award** (*ISSTA '24*)
 - Mathematical Contest in Modeling (MCM) **Honorable Mention**, 2022
 
 Scholarship
