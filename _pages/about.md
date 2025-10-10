@@ -43,6 +43,7 @@ Academic Service
 
 Awards and Honors
 ------
+- ETH Hangzhou Hackathon, 2025, **Top 5**, 896 likes ([Project Link](https://www.hackquest.io/zh-cn/projects/ETH-Hangzhou-Hackathon-2025-QuantifyX))
 - The Third Prize in the *DataCon* Big Data Security Analysis Competition, 2024
 - **ACM SIGSOFT Distinguished Paper Award** (*ISSTA '24*)
 - Mathematical Contest in Modeling (MCM) **Honorable Mention**, 2022
