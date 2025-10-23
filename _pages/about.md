@@ -24,8 +24,12 @@ Educations
 
 Publications
 ------
+- **Trace: Securing Smart Contract Repository Against Access Control Vulnerability**    
+<small>**(Pre-print 2025)**  [PDF](https://arxiv.org/abs/2510.19254) | [Code](https://github.com/BugmakerCC/Trace)</small>  
+<small><u><b>Chong Chen</b></u>, Jiachi Chen, Lingfeng Bao, David Lo, Yanlin Wang, Zhenyu Shan, Ting Chen, Guangqiang Yin, Jianxing Yu, Zibin Zheng</small>
+
 - **Coinvisor: An RL-Enhanced Chatbot Agent for Interactive Cryptocurrency Investment Analysis**    
-<small>**(Pre-print)**  [PDF](https://arxiv.org/abs/2510.17235) | [Code](https://github.com/BugmakerCC/Coinvisor)</small>  
+<small>**(Pre-print 2025)**  [PDF](https://arxiv.org/abs/2510.17235) | [Code](https://github.com/BugmakerCC/Coinvisor)</small>  
 <small><u><b>Chong Chen</b></u>, Ze Liu, Lingfeng Bao, Yanlin Wang, Ting Chen, Daoyuan Wu, Jiachi Chen</small>
 
 - **Identifying Smart Contract Security Issues in Code Snippets from Stack Overflow**  
