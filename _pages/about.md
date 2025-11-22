@@ -57,6 +57,7 @@ Awards and Honors
 
 Scholarship
 ------
-- **National** Scholarship at *SYSU*, 2023-2024
-- **1st Class** Scholarship at *SYSU*, 2023-2024
-- **1st Class** Scholarship at *SYSU*, 2022-2023
+- **Xiaomi** Scholarship at *SYSU*, 2025
+- **National** Scholarship at *SYSU*, 2024
+- **1st Class** Scholarship at *SYSU*, 2024
+- **1st Class** Scholarship at *SYSU*, 2023
