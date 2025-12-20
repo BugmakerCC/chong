@@ -57,7 +57,7 @@ Awards and Honors
 
 Scholarship
 ------
-- **Xiaomi** Scholarship at *SYSU*, 2025
+- **Xiaomi Outstanding** Scholarship at *SYSU*, 2025
 - **National** Scholarship at *SYSU*, 2024
 - **1st Class** Scholarship at *SYSU*, 2024
 - **1st Class** Scholarship at *SYSU*, 2023
