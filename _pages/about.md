@@ -9,7 +9,7 @@ redirect_from:
 
 Biography
 ------
-My name is Chong Chen. I am a master’s student at the School of Software Engineering, *Sun Yat-sen University*. My supervisor is Dr. [Jiachi Chen](https://jiachi-chen.github.io). Currently, I am interning at *The State Key Laboratory of Blockchain and Data Security, Zhejiang University*.
+My name is Chong Chen. I am a master’s student at the School of Software Engineering, *Sun Yat-sen University*. My supervisor are Dr. [Jiachi Chen](https://jiachi-chen.github.io) and Dr. [Yanlin Wang](https://yanlin.info/). Currently, I am interning at *The State Key Laboratory of Blockchain and Data Security, Zhejiang University*.
 
 My research mainly focuses on: (1) **LLM4SE**; (2) **Program Analysis**, with a primary focus on the applications of LLMs in code quality and the Web3 domain.
 
