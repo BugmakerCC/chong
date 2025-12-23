@@ -28,14 +28,14 @@ Publications
 <small>**(Pre-print 2025)**  [PDF](https://arxiv.org/abs/2510.17235) | [Code](https://github.com/BugmakerCC/Coinvisor)</small>  
 <small><u><b>Chong Chen</b></u>, Ze Liu, Lingfeng Bao, Yanlin Wang, Ting Chen, Daoyuan Wu, Jiachi Chen</small>
 <p align="center">
-  <img src="../images/Coinvisor.png" width="700">
+  <img src="/images/Coinvisor.png" width="700">
 </p>
 
 - **Trace: Securing Smart Contract Repository Against Access Control Vulnerability**    
 <small>**(Pre-print 2025)**  [PDF](https://arxiv.org/abs/2510.19254) | [Code](https://github.com/BugmakerCC/Trace)</small>  
 <small><u><b>Chong Chen</b></u>, Jiachi Chen, Lingfeng Bao, David Lo, Yanlin Wang, Zhenyu Shan, Ting Chen, Guangqiang Yin, Jianxing Yu, Zibin Zheng</small>
 <p align="center">
-  <img src="../images/Trace.png" width="350">
+  <img src="/images/Trace.png" width="350">
 </p>
 
 - **Identifying Smart Contract Security Issues in Code Snippets from Stack Overflow**  
@@ -43,14 +43,14 @@ Publications
 <small>**ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA 2024)**  [PDF](https://dl.acm.org/doi/pdf/10.1145/3650212.3680353) | [Code](https://github.com/BugmakerCC/SOChecker)</small>  
 <small>Jiachi Chen, <u><b>Chong Chen</b></u>, Jiang Hu, John Grundy, Yanlin Wang, Ting Chen, Zibin Zheng</small>
 <p align="center">
-  <img src="../images/SOChecker.png" width="280">
+  <img src="/images/SOChecker.png" width="280">
 </p>
 
 - **When ChatGPT Meets Smart Contract Vulnerability Detection: How Far Are We?**    
 <small>**ACM Transactions on Software Engineering and Methodology (TOSEM 2024)**  [PDF](https://arxiv.org/pdf/2309.05520) | [Code](https://zenodo.org/record/8332273)</small>  
 <small><u><b>Chong Chen</b></u>, Jianzhong Su, Jiachi Chen, Yanlin Wang, Tingting Bi, Jianxing Yu, Yanli Wang, Xingwei Lin, Ting Chen, Zibin Zheng</small>
 <p align="center">
-  <img src="../images/GPT4SCV.png" width="700">
+  <img src="/images/GPT4SCV.png" width="700">
 </p>
 
 Academic Service
