@@ -41,6 +41,8 @@ jobs:
 
             - name: Build
               run: |
+                  mkdir -p themes/zero-academic-page
+                  cp -r archetypes assets layouts theme.toml themes/zero-academic-page/
                   cd exampleSite
                   hugo --minify --gc
 
