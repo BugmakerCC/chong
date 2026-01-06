@@ -6,25 +6,20 @@ googleAnalyticsID = ""
 
 [[social]]
 name = "github"
-url = "https://github.com/"
+url = "https://github.com/BugmakerCC"
 icon = "fab fa-github"
 
 [[social]]
 name = "google-scholar"
-url = "https://scholar.google.com/"
+url = "https://scholar.google.cz/citations?user=1sncT70AAAAJ&hl=zh-CN"
 icon = "fab fa-google-scholar"
 
 [[social]]
 name = "email"
-url = "mailto:example@example.com"
+url = "mailto:chench578@mail2.sysu.edu.cn"
 icon = "fas fa-envelope"
 
 [[social]]
-name = "linkedin"
-url = "https://linkedin.com/"
-icon = "fab fa-linkedin"
-
-[[social]]
-name = "zhihu"
-url = "https://zhihu.com/"
-icon = "fab fa-zhihu"
+name = "wechat"
+url = "/chong/images/wechat-qr.jpg"
+icon = "fab fa-weixin"

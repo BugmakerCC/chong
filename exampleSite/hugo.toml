@@ -1,4 +1,4 @@
-baseURL = 'https://geekifan.github.io/zero-academic-page/'
+baseURL = 'https://bugmakercc.github.io/chong/'
 
 # multi-language support
 defaultContentLanguage = 'en'
@@ -10,7 +10,7 @@ enableGitInfo = true
 disableKinds = ["taxonomy", "term", "RSS"]
 
 # theme
-theme = "my-academic-theme"
+theme = "zero-academic-page"
 themesDir = "../../"
 
 [build]

@@ -40,12 +40,14 @@ jobs:
                   extended: true
 
             - name: Build
-              run: hugo --minify --gc
+              run: |
+                  cd exampleSite
+                  hugo --minify --gc
 
             - name: Deploy 🚀
               uses: JamesIves/github-pages-deploy-action@v4
               with:
                   branch: gh-pages
-                  folder: public
+                  folder: exampleSite/public
                   clean: true
                   single-commit: true

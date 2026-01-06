@@ -1,11 +1,11 @@
 [en]
 languageName = 'English'
 weight = 1
-title = 'Zero'
+title = 'Chong Chen'
 
 [en.params]
-    author = "Lorem ipsum"
-    description = "Ph.D Student in [Lorem ipsum College](https://example.com). Focusing on Computer Vision and Deep Learning."
+    author = "Chong Chen (陈翀)"
+    description = "M.S. Student at [Sun Yat-sen University](https://www.sysu.edu.cn/). Focusing on LLM4SE and Program Analysis."
     motto = "Most things in the world are not that important. But truth and love matter."
 
 [[en.menu.main]]
@@ -13,8 +13,8 @@ title = 'Zero'
     url = '#about-me'
     weight = 1
 [[en.menu.main]]
-    name = 'News'
-    url = '#news'
+    name = 'Educations'
+    url = '#educations'
     weight = 2
 [[en.menu.main]]
     name = 'Publications'
@@ -25,35 +25,31 @@ title = 'Zero'
     url = '#honors-and-awards'
     weight = 4
 [[en.menu.main]]
-    name = 'Educations'
-    url = '#educations'
+    name = 'Academic Service'
+    url = '#academic-service'
     weight = 5
 [[en.menu.main]]
-    name = 'Invited Talks'
-    url = '#invited-talks'
+    name = 'Contact Me'
+    url = '#contact-me'
     weight = 6
-[[en.menu.main]]
-    name = 'Internships'
-    url = '#internships'
-    weight = 7
-    
+
 [zh]
 languageName = '中文'
 weight = 2
-title = '学术主页'
+title = '陈翀'
 
 [zh.params]
-    author = "王小明"
-    description = "某某大学博士生，专注于计算机视觉与深度学习"
-    motto = "世界上大部分事，都没有太大意义。真理与爱除外。"
+    author = "陈翀 (Chong Chen)"
+    description = "中山大学软件工程学院硕士研究生，研究方向：大模型辅助软件工程、程序分析"
+    motto = "世界上大部分事,都没有太大意义。真理与爱除外。"
 
 [[zh.menu.main]]
     name = '关于我'
     url = '#about-me'
     weight = 1
 [[zh.menu.main]]
-    name = '新闻'
-    url = '#news'
+    name = '教育背景'
+    url = '#educations'
     weight = 2
 [[zh.menu.main]]
     name = '发表论文'
@@ -64,14 +60,10 @@ title = '学术主页'
     url = '#honors-and-awards'
     weight = 4
 [[zh.menu.main]]
-    name = '教育背景'
-    url = '#educations'
+    name = '学术服务'
+    url = '#academic-service'
     weight = 5
 [[zh.menu.main]]
-    name = '受邀报告'
-    url = '#invited-talks'
+    name = '联系我'
+    url = '#contact-me'
     weight = 6
-[[zh.menu.main]]
-    name = '实习经历'
-    url = '#internships'
-    weight = 7
