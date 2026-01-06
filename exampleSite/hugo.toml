@@ -1,5 +1,7 @@
 baseURL = 'https://bugmakercc.github.io/chong/'
-languageCode = 'en-US'
+
+# multi-language support
+defaultContentLanguage = 'en'
 
 # enable git info
 enableGitInfo = true

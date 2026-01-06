@@ -1,29 +1,69 @@
-[params]
+[en]
+languageName = 'English'
+weight = 1
+title = 'Chong Chen'
+
+[en.params]
     author = "Chong Chen (陈翀)"
     description = "M.S. Student at [Sun Yat-sen University](https://www.sysu.edu.cn/). Focusing on LLM4SE and Program Analysis."
     motto = "Most things in the world are not that important. But truth and love matter."
 
-[[menu.main]]
+[[en.menu.main]]
     name = 'About Me'
     url = '#about-me'
     weight = 1
-[[menu.main]]
+[[en.menu.main]]
     name = 'Educations'
     url = '#educations'
     weight = 2
-[[menu.main]]
+[[en.menu.main]]
     name = 'Publications'
     url = '#publications'
     weight = 3
-[[menu.main]]
+[[en.menu.main]]
     name = 'Honors and Awards'
     url = '#honors-and-awards'
     weight = 4
-[[menu.main]]
+[[en.menu.main]]
     name = 'Academic Service'
     url = '#academic-service'
     weight = 5
-[[menu.main]]
+[[en.menu.main]]
     name = 'Contact Me'
+    url = '#contact-me'
+    weight = 6
+
+[zh]
+languageName = '中文'
+weight = 2
+title = '陈翀'
+
+[zh.params]
+    author = "陈翀 (Chong Chen)"
+    description = "中山大学软件工程学院硕士研究生，研究方向：大模型辅助软件工程、程序分析"
+    motto = "世界上大部分事,都没有太大意义。真理与爱除外。"
+
+[[zh.menu.main]]
+    name = '关于我'
+    url = '#about-me'
+    weight = 1
+[[zh.menu.main]]
+    name = '教育背景'
+    url = '#educations'
+    weight = 2
+[[zh.menu.main]]
+    name = '发表论文'
+    url = '#publications'
+    weight = 3
+[[zh.menu.main]]
+    name = '荣誉与奖项'
+    url = '#honors-and-awards'
+    weight = 4
+[[zh.menu.main]]
+    name = '学术服务'
+    url = '#academic-service'
+    weight = 5
+[[zh.menu.main]]
+    name = '联系我'
     url = '#contact-me'
     weight = 6
