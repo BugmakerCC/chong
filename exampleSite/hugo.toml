@@ -11,7 +11,7 @@ disableKinds = ["taxonomy", "term", "RSS"]
 
 # theme
 theme = "zero-academic-page"
-themesDir = "../../"
+themesDir = "../"
 
 [build]
   writeStats = false
