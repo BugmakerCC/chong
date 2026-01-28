@@ -20,15 +20,15 @@ My research mainly focuses on: (1) **LLM4SE**; (2) **Program Analysis**, with a 
 
 # 📝 Publications {#publications}
 
+- ***[Trace: Securing Smart Contract Repository Against Access Control Vulnerability](https://arxiv.org/abs/2510.19254)*** <br>
+  **Chong Chen**, Jiachi Chen, Lingfeng Bao, David Lo, Yanlin Wang, Zhenyu Shan, Ting Chen, Guangqiang Yin, Jianxing Yu, Zibin Zheng <br>
+  in IEEE Transactions on Software Engineering (**TSE 2026**) <br>
+  <a href="https://arxiv.org/abs/2510.19254" class="no-trailing-icon"><img src="https://img.shields.io/badge/arXiv-2510.19254-b31b1b.svg?style=flat-square" alt="arXiv-2510.19254"/></a> <a href="https://github.com/BugmakerCC/Trace" class="no-trailing-icon"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/BugmakerCC/Trace?style=flat-square&logo=github&label=GitHub%20Stars&labelColor=black"></a>
+  
 - ***[Coinvisor: An RL-Enhanced Chatbot Agent for Interactive Cryptocurrency Investment Analysis](https://arxiv.org/abs/2510.17235)*** <br>
   **Chong Chen**, Ze Liu, Lingfeng Bao, Yanlin Wang, Ting Chen, Daoyuan Wu, Jiachi Chen <br>
   **Pre-print 2025** <br>
   <a href="https://arxiv.org/abs/2510.17235" class="no-trailing-icon"><img src="https://img.shields.io/badge/arXiv-2510.17235-b31b1b.svg?style=flat-square" alt="arXiv-2510.17235"/></a> <a href="https://github.com/BugmakerCC/Coinvisor" class="no-trailing-icon"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/BugmakerCC/Coinvisor?style=flat-square&logo=github&label=GitHub%20Stars&labelColor=black"></a>
-
-- ***[Trace: Securing Smart Contract Repository Against Access Control Vulnerability](https://arxiv.org/abs/2510.19254)*** <br>
-  **Chong Chen**, Jiachi Chen, Lingfeng Bao, David Lo, Yanlin Wang, Zhenyu Shan, Ting Chen, Guangqiang Yin, Jianxing Yu, Zibin Zheng <br>
-  **Pre-print 2025** <br>
-  <a href="https://arxiv.org/abs/2510.19254" class="no-trailing-icon"><img src="https://img.shields.io/badge/arXiv-2510.19254-b31b1b.svg?style=flat-square" alt="arXiv-2510.19254"/></a> <a href="https://github.com/BugmakerCC/Trace" class="no-trailing-icon"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/BugmakerCC/Trace?style=flat-square&logo=github&label=GitHub%20Stars&labelColor=black"></a>
 
 - ***[Identifying Smart Contract Security Issues in Code Snippets from Stack Overflow](https://dl.acm.org/doi/pdf/10.1145/3650212.3680353)*** <br>
   Jiachi Chen, **Chong Chen**, Jiang Hu, John Grundy, Yanlin Wang, Ting Chen, Zibin Zheng <br>
