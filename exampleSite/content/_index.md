@@ -6,9 +6,9 @@ description: >-
 
 # About Me {#about-me}
 
-My name is Chong Chen. I am a master's student at the School of Software Engineering, *Sun Yat-sen University*. My supervisors are Dr. [Jiachi Chen](https://jiachi-chen.github.io) and Dr. [Yanlin Wang](https://yanlin.info/). Currently, I am interning at *The State Key Laboratory of Blockchain and Data Security, Zhejiang University*.
+My name is Chong Chen. I am a master's student at the School of Software Engineering, **Sun Yat-sen University**. My supervisors are Dr. [Jiachi Chen](https://jiachi-chen.github.io) and Dr. [Yanlin Wang](https://yanlin.info/). I will soon join the College of Computer Science and Technology, **Zhejiang University**, to pursue my Ph.D.
 
-My research mainly focuses on: (1) **LLM4SE**; (2) **Program Analysis**, with a primary focus on the applications of LLMs in **code quality** and the **Web3** domain.
+My research mainly focuses on **AI4Security**, with a primary focus on **Web3 security** and **Agent security**.
 
 # 📖 Educations {#educations}
 
@@ -19,6 +19,9 @@ My research mainly focuses on: (1) **LLM4SE**; (2) **Program Analysis**, with a 
   B.S. in Computer Science and Technology, September 2019 - June 2023.
 
 # 📝 Publications {#publications}
+- ***[Lost in Blockchain Address Misuse: Hidden Cross-Platform Risks and Their Security Impact](https://baolingfeng.github.io/papers/sec26cycle1-final911.pdf)*** <br>
+  Zhenzhe Shao, Jiashuo Zhang, Zihao Li, Daoyuan Wu, **Chong Chen**, Yiming Shen, Lingfeng Bao, Yanlin Wang, Jiachi Chen <br>
+  in USENIX Security Symposium (**Security 2026**) <br>
 
 - ***[Trace: Securing Smart Contract Repository Against Access Control Vulnerability](https://arxiv.org/abs/2510.19254)*** <br>
   **Chong Chen**, Jiachi Chen, Lingfeng Bao, David Lo, Yanlin Wang, Zhenyu Shan, Ting Chen, Guangqiang Yin, Jianxing Yu, Zibin Zheng <br>
