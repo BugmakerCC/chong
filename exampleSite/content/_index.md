@@ -1,7 +1,7 @@
 ---
 title: "Chong Chen (陈翀)"
 description: >-
-  Master's student at Sun Yat-sen University focusing on LLM4SE and Program Analysis with applications in code quality and Web3 domain.
+  Master's student at Sun Yat-sen University focusing on AI4Security.
 ---
 
 # About Me {#about-me}
