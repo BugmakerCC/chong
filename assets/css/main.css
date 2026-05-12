@@ -161,24 +161,6 @@ header {
 }
 /* end of navbar */
 
-/* start of i18n selector */
-#i18n-selector {
-    display: flex;
-    align-items: center;
-}
-
-#i18n-selector select{
-    padding-left: 5px;
-    padding-bottom: 1px;
-    border: 0;
-    background-color: transparent;
-    color: var(--text-color);
-    margin-right: 10px;
-    font-size: 0.875rem;
-    font-family: inherit;
-}
-/* end of i18n selector */
-
 /* start of theme toggle button */
 .theme-toggle button {
     background: none;
