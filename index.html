@@ -1,0 +1,332 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Chong Chen (陈翀)</title>
+  <meta name="description" content="Chong Chen is a master's student at Sun Yat-sen University researching AI4Security, with a focus on Web3 security and Agent security. Incoming Ph.D. at Zhejiang University." />
+  <meta name="author" content="Chong Chen (陈翀)" />
+  <link rel="canonical" href="https://bugmakercc.github.io/chong/" />
+
+  <!-- Open Graph / Twitter -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://bugmakercc.github.io/chong/" />
+  <meta property="og:title" content="Chong Chen (陈翀)" />
+  <meta property="og:description" content="Master's student at Sun Yat-sen University researching AI4Security. Incoming Ph.D. at Zhejiang University." />
+  <meta property="og:image" content="https://bugmakercc.github.io/chong/assets/img/profile.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Chong Chen (陈翀)" />
+  <meta name="twitter:description" content="Master's student at Sun Yat-sen University researching AI4Security." />
+  <meta name="twitter:image" content="https://bugmakercc.github.io/chong/assets/img/profile.jpg" />
+
+  <meta name="theme-color" content="#faf9f6" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#0f0f10" media="(prefers-color-scheme: dark)" />
+
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+
+  <!-- Self-hosted fonts (no render-blocking external link) -->
+  <link rel="preload" href="assets/fonts/geist-sans.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="assets/fonts/geist-mono.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="stylesheet" href="assets/css/style.css" />
+
+  <!-- Set theme before paint to avoid flash; flag JS for progressive reveal -->
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem("theme");
+        if (!t) t = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        document.documentElement.setAttribute("data-theme", t);
+      } catch (e) {}
+      document.documentElement.classList.add("js");
+    })();
+  </script>
+</head>
+
+<body>
+  <a class="skip-link" href="#about-me">Skip to content</a>
+
+  <!-- Icon sprite (Simple Icons for brands, Tabler for UI) -->
+  <svg aria-hidden="true" focusable="false" style="position:absolute;width:0;height:0;overflow:hidden">
+    <symbol id="i-github" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></symbol>
+    <symbol id="i-scholar" viewBox="0 0 24 24" fill="currentColor"><path d="M5.242 13.769L0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"/></symbol>
+    <symbol id="i-wechat" viewBox="0 0 24 24" fill="currentColor"><path d="M8.691 2.188C3.891 2.188 0 5.476 0 9.53c0 2.212 1.17 4.203 3.002 5.55a.59.59 0 0 1 .213.665l-.39 1.48c-.019.07-.048.141-.048.213 0 .163.13.295.29.295a.326.326 0 0 0 .167-.054l1.903-1.114a.864.864 0 0 1 .717-.098 10.16 10.16 0 0 0 2.837.403c.276 0 .543-.027.811-.05-.857-2.578.157-4.972 1.932-6.446 1.703-1.415 3.882-1.98 5.853-1.838-.576-3.583-4.196-6.348-8.596-6.348zM5.785 5.991c.642 0 1.162.529 1.162 1.18a1.17 1.17 0 0 1-1.162 1.178A1.17 1.17 0 0 1 4.623 7.17c0-.651.52-1.18 1.162-1.18zm5.813 0c.642 0 1.162.529 1.162 1.18a1.17 1.17 0 0 1-1.162 1.178 1.17 1.17 0 0 1-1.162-1.178c0-.651.52-1.18 1.162-1.18zm5.34 2.867c-1.797-.052-3.746.512-5.28 1.786-1.72 1.428-2.687 3.72-1.78 6.22.942 2.453 3.666 4.229 6.884 4.229.826 0 1.622-.12 2.361-.336a.722.722 0 0 1 .598.082l1.584.926a.272.272 0 0 0 .14.047c.134 0 .24-.111.24-.247 0-.06-.023-.12-.038-.177l-.327-1.233a.582.582 0 0 1-.023-.156.49.49 0 0 1 .201-.398C23.024 18.48 24 16.82 24 14.98c0-3.21-2.931-5.837-6.656-6.088V8.89c-.135-.01-.27-.027-.407-.03zm-2.53 3.274c.535 0 .969.44.969.982a.976.976 0 0 1-.969.983.976.976 0 0 1-.969-.983c0-.542.434-.982.97-.982zm4.844 0c.535 0 .969.44.969.982a.976.976 0 0 1-.969.983.976.976 0 0 1-.969-.983c0-.542.434-.982.969-.982z"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10"/><path d="M3 7l9 6l9 -6"/></symbol>
+    <symbol id="i-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M8 12a4 4 0 1 0 8 0a4 4 0 1 0 -8 0"/><path d="M3 12h1m8 -9v1m8 8h1m-9 8v1m-6.4 -15.4l.7 .7m12.1 -.7l-.7 .7m0 11.4l.7 .7m-12.1 -.7l-.7 .7"/></symbol>
+    <symbol id="i-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454l0 .008"/></symbol>
+    <symbol id="i-award" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9a6 6 0 1 0 12 0a6 6 0 1 0 -12 0"/><path d="M12 15l3.4 5.89l1.598 -3.233l3.598 .232l-3.4 -5.889"/><path d="M6.802 12l-3.4 5.89l3.598 -.233l1.598 3.232l3.4 -5.889"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M17 7l-10 10"/><path d="M8 7l9 0l0 9"/></symbol>
+  </svg>
+
+  <!-- Sentinel for nav scrolled-state (avoids scroll listeners) -->
+  <div id="top-sentinel" aria-hidden="true"></div>
+
+  <header class="nav" id="nav">
+    <div class="nav-inner">
+      <a class="nav-brand" href="#top">Chong&nbsp;Chen <span aria-hidden="true">陈翀</span></a>
+      <nav class="nav-links" aria-label="Sections">
+        <a href="#about-me">About</a>
+        <a href="#educations">Education</a>
+        <a href="#publications">Publications</a>
+        <a href="#honors-and-awards">Awards</a>
+        <a href="#academic-service">Service</a>
+        <a href="#contact-me">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="icon-btn theme-toggle" id="theme-toggle" type="button" aria-label="Switch theme">
+          <svg class="icon icon-sun"><use href="#i-sun"/></svg>
+          <svg class="icon icon-moon"><use href="#i-moon"/></svg>
+        </button>
+        <button class="icon-btn nav-burger" id="nav-burger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="mobile-menu" id="mobile-menu" hidden>
+    <nav class="mobile-menu-links" aria-label="Sections">
+      <a href="#about-me">About</a>
+      <a href="#educations">Education</a>
+      <a href="#publications">Publications</a>
+      <a href="#honors-and-awards">Awards</a>
+      <a href="#academic-service">Service</a>
+      <a href="#contact-me">Contact</a>
+    </nav>
+  </div>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="wrap hero-inner">
+        <div class="hero-copy">
+          <p class="hero-status reveal">Incoming Ph.D. at Zhejiang University</p>
+          <h1 class="hero-name reveal">Chong Chen <span class="hero-name-alt">陈翀</span></h1>
+          <p class="hero-role reveal">Master's student at Sun Yat-sen University working on <span class="hl">AI4Security</span>, with a focus on <span class="hl">Web3 security</span> and <span class="hl">Agent security</span>.</p>
+          <div class="hero-actions reveal">
+            <a class="btn btn-primary" href="mailto:chench578@mail2.sysu.edu.cn">Get in touch</a>
+            <a class="btn btn-ghost" href="#publications">Read publications</a>
+          </div>
+          <ul class="hero-socials reveal" aria-label="Profiles">
+            <li><a href="https://github.com/BugmakerCC" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><svg class="icon"><use href="#i-github"/></svg></a></li>
+            <li><a href="https://scholar.google.cz/citations?user=1sncT70AAAAJ&hl=zh-CN" target="_blank" rel="noopener noreferrer" aria-label="Google Scholar"><svg class="icon"><use href="#i-scholar"/></svg></a></li>
+            <li><a href="mailto:chench578@mail2.sysu.edu.cn" aria-label="Email"><svg class="icon"><use href="#i-mail"/></svg></a></li>
+            <li><button type="button" class="link-reset" data-wechat aria-label="WeChat QR code"><svg class="icon"><use href="#i-wechat"/></svg></button></li>
+          </ul>
+        </div>
+        <div class="hero-portrait reveal">
+          <figure class="portrait">
+            <img src="assets/img/profile.jpg" alt="Portrait of Chong Chen" width="720" height="706" fetchpriority="high" />
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about-me">
+      <div class="wrap">
+        <h2 class="section-title reveal">About</h2>
+        <div class="about-grid">
+          <div class="about-prose">
+            <p class="lead reveal">
+              I'm a master's student at the School of Software Engineering,
+              <a href="https://www.sysu.edu.cn/" target="_blank" rel="noopener noreferrer">Sun Yat-sen University</a>,
+              advised by Dr. <a href="https://jiachi-chen.github.io" target="_blank" rel="noopener noreferrer">Jiachi Chen</a>
+              and Dr. <a href="https://yanlin.info/" target="_blank" rel="noopener noreferrer">Yanlin Wang</a>.
+              I will soon join
+              <a href="https://www.zju.edu.cn/english/" target="_blank" rel="noopener noreferrer">Zhejiang University</a> to pursue my Ph.D.
+            </p>
+            <p class="reveal">
+              My research centers on <span class="hl">AI4Security</span>, with a primary focus on <span class="hl">Web3 security</span> and <span class="hl">Agent security</span>,
+              spanning smart contract vulnerability analysis and the reliability of LLM-based agents.
+            </p>
+          </div>
+          <aside class="about-facts reveal" aria-label="At a glance">
+            <dl>
+              <div><dt>Now</dt><dd>M.S. Student, SYSU</dd></div>
+              <div><dt>Next</dt><dd>Ph.D., Zhejiang University</dd></div>
+              <div><dt>Focus</dt><dd>AI4Security</dd></div>
+              <div><dt>Topics</dt><dd>Web3 security, Agent security</dd></div>
+              <div><dt>Advisors</dt><dd>Jiachi Chen, Yanlin Wang</dd></div>
+            </dl>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section class="section" id="educations">
+      <div class="wrap">
+        <h2 class="section-title reveal">Education</h2>
+        <ol class="timeline">
+          <li class="reveal">
+            <div class="tl-period">Sep 2023 - Present</div>
+            <div class="tl-body">
+              <h3>Sun Yat-sen University</h3>
+              <p>M.S. in Software Engineering</p>
+            </div>
+          </li>
+          <li class="reveal">
+            <div class="tl-period">Sep 2019 - Jun 2023</div>
+            <div class="tl-body">
+              <h3>Soochow University</h3>
+              <p>B.S. in Computer Science and Technology</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- PUBLICATIONS -->
+    <section class="section" id="publications">
+      <div class="wrap">
+        <h2 class="section-title reveal">Publications <span class="count">5</span></h2>
+        <ol class="pubs">
+
+          <li class="pub reveal">
+            <div class="pub-meta">
+              <span class="pub-year">2026</span>
+              <span class="pub-tag">USENIX Security</span>
+            </div>
+            <div class="pub-body">
+              <h3 class="pub-title"><a href="https://baolingfeng.github.io/papers/sec26cycle1-final911.pdf" target="_blank" rel="noopener noreferrer">Lost in Blockchain Address Misuse: Hidden Cross-Platform Risks and Their Security Impact</a></h3>
+              <p class="pub-authors">Zhenzhe Shao, Jiashuo Zhang, Zihao Li, Daoyuan Wu, <span class="me">Chong Chen</span>, Yiming Shen, Lingfeng Bao, Yanlin Wang, Jiachi Chen</p>
+              <p class="pub-venue">USENIX Security Symposium (Security 2026)</p>
+              <div class="pub-links">
+                <a class="chip" href="https://baolingfeng.github.io/papers/sec26cycle1-final911.pdf" target="_blank" rel="noopener noreferrer">PDF <svg class="icon icon-xs"><use href="#i-arrow"/></svg></a>
+              </div>
+            </div>
+          </li>
+
+          <li class="pub reveal">
+            <div class="pub-meta">
+              <span class="pub-year">2026</span>
+              <span class="pub-tag">IEEE TSE</span>
+            </div>
+            <div class="pub-body">
+              <h3 class="pub-title"><a href="https://arxiv.org/abs/2510.19254" target="_blank" rel="noopener noreferrer">Trace: Securing Smart Contract Repository Against Access Control Vulnerability</a></h3>
+              <p class="pub-authors"><span class="me">Chong Chen</span>, Jiachi Chen, Lingfeng Bao, David Lo, Yanlin Wang, Zhenyu Shan, Ting Chen, Guangqiang Yin, Jianxing Yu, Zibin Zheng</p>
+              <p class="pub-venue">IEEE Transactions on Software Engineering (TSE 2026)</p>
+              <div class="pub-links">
+                <a class="chip" href="https://arxiv.org/abs/2510.19254" target="_blank" rel="noopener noreferrer">arXiv <svg class="icon icon-xs"><use href="#i-arrow"/></svg></a>
+                <a class="chip" href="https://github.com/BugmakerCC/Trace" target="_blank" rel="noopener noreferrer">Code <svg class="icon icon-xs"><use href="#i-arrow"/></svg></a>
+              </div>
+            </div>
+          </li>
+
+          <li class="pub reveal">
+            <div class="pub-meta">
+              <span class="pub-year">2025</span>
+              <span class="pub-tag">Preprint</span>
+            </div>
+            <div class="pub-body">
+              <h3 class="pub-title"><a href="https://arxiv.org/abs/2510.17235" target="_blank" rel="noopener noreferrer">Coinvisor: An RL-Enhanced Chatbot Agent for Interactive Cryptocurrency Investment Analysis</a></h3>
+              <p class="pub-authors"><span class="me">Chong Chen</span>, Ze Liu, Lingfeng Bao, Yanlin Wang, Ting Chen, Daoyuan Wu, Jiachi Chen</p>
+              <p class="pub-venue">Pre-print 2025</p>
+              <div class="pub-links">
+                <a class="chip" href="https://arxiv.org/abs/2510.17235" target="_blank" rel="noopener noreferrer">arXiv <svg class="icon icon-xs"><use href="#i-arrow"/></svg></a>
+                <a class="chip" href="https://github.com/BugmakerCC/Coinvisor" target="_blank" rel="noopener noreferrer">Code <svg class="icon icon-xs"><use href="#i-arrow"/></svg></a>
+              </div>
+            </div>
+          </li>
+
+          <li class="pub reveal">
+            <div class="pub-meta">
+              <span class="pub-year">2024</span>
+              <span class="pub-tag">ISSTA</span>
+            </div>
+            <div class="pub-body">
+              <p class="pub-honor"><svg class="icon icon-xs"><use href="#i-award"/></svg> ACM SIGSOFT Distinguished Paper Award</p>
+              <h3 class="pub-title"><a href="https://dl.acm.org/doi/pdf/10.1145/3650212.3680353" target="_blank" rel="noopener noreferrer">Identifying Smart Contract Security Issues in Code Snippets from Stack Overflow</a></h3>
+              <p class="pub-authors">Jiachi Chen, <span class="me">Chong Chen</span>, Jiang Hu, John Grundy, Yanlin Wang, Ting Chen, Zibin Zheng</p>
+              <p class="pub-venue">ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA 2024)</p>
+              <div class="pub-links">
+                <a class="chip" href="https://dl.acm.org/doi/pdf/10.1145/3650212.3680353" target="_blank" rel="noopener noreferrer">PDF <svg class="icon icon-xs"><use href="#i-arrow"/></svg></a>
+                <a class="chip" href="https://github.com/BugmakerCC/SOChecker" target="_blank" rel="noopener noreferrer">Code <svg class="icon icon-xs"><use href="#i-arrow"/></svg></a>
+              </div>
+            </div>
+          </li>
+
+          <li class="pub reveal">
+            <div class="pub-meta">
+              <span class="pub-year">2024</span>
+              <span class="pub-tag">ACM TOSEM</span>
+            </div>
+            <div class="pub-body">
+              <h3 class="pub-title"><a href="https://arxiv.org/pdf/2309.05520" target="_blank" rel="noopener noreferrer">When ChatGPT Meets Smart Contract Vulnerability Detection: How Far Are We?</a></h3>
+              <p class="pub-authors"><span class="me">Chong Chen</span>, Jianzhong Su, Jiachi Chen, Yanlin Wang, Tingting Bi, Jianxing Yu, Yanli Wang, Xingwei Lin, Ting Chen, Zibin Zheng</p>
+              <p class="pub-venue">ACM Transactions on Software Engineering and Methodology (TOSEM 2024)</p>
+              <div class="pub-links">
+                <a class="chip" href="https://arxiv.org/pdf/2309.05520" target="_blank" rel="noopener noreferrer">arXiv <svg class="icon icon-xs"><use href="#i-arrow"/></svg></a>
+                <a class="chip" href="https://zenodo.org/record/8332273" target="_blank" rel="noopener noreferrer">Dataset <svg class="icon icon-xs"><use href="#i-arrow"/></svg></a>
+                <a class="chip" href="https://github.com/BugmakerCC/GPT4scv" target="_blank" rel="noopener noreferrer">Code <svg class="icon icon-xs"><use href="#i-arrow"/></svg></a>
+              </div>
+            </div>
+          </li>
+
+        </ol>
+      </div>
+    </section>
+
+    <!-- AWARDS -->
+    <section class="section" id="honors-and-awards">
+      <div class="wrap">
+        <h2 class="section-title reveal">Awards &amp; Honors</h2>
+        <ul class="awards">
+          <li class="reveal"><span class="aw-year">2026</span><div class="aw-text"><p class="aw-name">Outstanding Graduate</p><p class="aw-org">Sun Yat-sen University</p></div></li>
+          <li class="reveal"><span class="aw-year">2025</span><div class="aw-text"><p class="aw-name">Xiaomi Outstanding Scholarship</p><p class="aw-org">Sun Yat-sen University</p></div></li>
+          <li class="reveal"><span class="aw-year">2025</span><div class="aw-text"><p class="aw-name"><a href="https://www.hackquest.io/zh-cn/projects/ETH-Hangzhou-Hackathon-2025-QuantifyX" target="_blank" rel="noopener noreferrer">Top 5, ETH Hangzhou Hackathon</a></p><p class="aw-org">896 likes</p></div></li>
+          <li class="reveal"><span class="aw-year">2024</span><div class="aw-text"><p class="aw-name">National Scholarship</p><p class="aw-org">Sun Yat-sen University</p></div></li>
+          <li class="reveal"><span class="aw-year">2024</span><div class="aw-text"><p class="aw-name">ACM SIGSOFT Distinguished Paper Award</p><p class="aw-org">ISSTA 2024</p></div></li>
+          <li class="reveal"><span class="aw-year">2024</span><div class="aw-text"><p class="aw-name">First Class Scholarship</p><p class="aw-org">Sun Yat-sen University</p></div></li>
+          <li class="reveal"><span class="aw-year">2024</span><div class="aw-text"><p class="aw-name">Third Prize, DataCon Big Data Security Analysis</p><p class="aw-org">National Competition</p></div></li>
+          <li class="reveal"><span class="aw-year">2023</span><div class="aw-text"><p class="aw-name">First Class Scholarship</p><p class="aw-org">Sun Yat-sen University</p></div></li>
+          <li class="reveal"><span class="aw-year">2022</span><div class="aw-text"><p class="aw-name">Honorable Mention</p><p class="aw-org">Mathematical Contest in Modeling (MCM)</p></div></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- SERVICE -->
+    <section class="section" id="academic-service">
+      <div class="wrap">
+        <h2 class="section-title reveal">Service</h2>
+        <ul class="service">
+          <li class="reveal"><span class="sv-role">Program Committee</span><span class="sv-venue">APSEC ERA 2025</span></li>
+          <li class="reveal"><span class="sv-role">Reviewer</span><span class="sv-venue">Chinese Journal of Electronics (CJE), 2025 - Present</span></li>
+          <li class="reveal"><span class="sv-role">Reviewer</span><span class="sv-venue">IEEE Transactions on Computational Social Systems (TCSS), 2024 - Present</span></li>
+          <li class="reveal"><span class="sv-role">Reviewer</span><span class="sv-venue">Blockchain: Research and Application (BCRA), 2023 - Present</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact" id="contact-me">
+      <div class="wrap">
+        <h2 class="section-title reveal">Contact</h2>
+        <p class="contact-lead reveal">I'm always glad to talk about research, collaborations, or an interesting security problem. Email is the surest way to reach me.</p>
+        <a class="contact-email reveal" href="mailto:chench578@mail2.sysu.edu.cn">chench578@mail2.sysu.edu.cn</a>
+        <ul class="contact-socials reveal" aria-label="Profiles">
+          <li><a href="https://github.com/BugmakerCC" target="_blank" rel="noopener noreferrer"><svg class="icon"><use href="#i-github"/></svg> GitHub</a></li>
+          <li><a href="https://scholar.google.cz/citations?user=1sncT70AAAAJ&hl=zh-CN" target="_blank" rel="noopener noreferrer"><svg class="icon"><use href="#i-scholar"/></svg> Google Scholar</a></li>
+          <li><button type="button" class="link-reset chip-link" data-wechat><svg class="icon"><use href="#i-wechat"/></svg> WeChat</button></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer-inner">
+      <p>&copy; 2026 Chong Chen (陈翀)</p>
+      <a class="footer-top" href="#top">Back to top <svg class="icon icon-xs"><use href="#i-arrow"/></svg></a>
+    </div>
+  </footer>
+
+  <!-- WeChat QR dialog -->
+  <dialog class="qr-dialog" id="qr-dialog" aria-label="WeChat QR code">
+    <button type="button" class="qr-close" id="qr-close" aria-label="Close">&times;</button>
+    <img src="assets/img/wechat-qr.jpg" alt="Chong Chen's WeChat QR code" width="320" height="422" loading="lazy" />
+    <p>Scan to add me on WeChat</p>
+  </dialog>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
