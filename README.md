@@ -4,6 +4,7 @@ A minimalist, premium personal academic homepage. Hand-built static site: plain
 HTML, CSS, and a small amount of vanilla JavaScript. No build step, no framework,
 instant load.
 
+
 ## Preview locally
 
 Any static file server works. For example:
